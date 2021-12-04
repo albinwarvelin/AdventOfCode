@@ -12,10 +12,9 @@ public class day1
         part2();
     }
 
-    public static void part1() throws IOException
+    private static void part1() throws IOException
     {
-        ArrayList<Integer> values = new ArrayList<>();
-        values = ReadFile.ToIntegerList("src/inputDay1.txt");
+        ArrayList<Integer> values = new ArrayList<>(ReadFile.ToIntegerList("src/inputDay1.txt"));
 
         int sum = 0;
 
@@ -33,10 +32,9 @@ public class day1
         System.out.println("Sum: " + sum);
     }
 
-    public static void part2() throws IOException
+    private static void part2() throws IOException
     {
-        ArrayList<Integer> values;
-        values = ReadFile.ToIntegerList("src/inputDay1.txt");
+        ArrayList<Integer> values = new ArrayList<>(ReadFile.ToIntegerList("src/inputDay1.txt"));
 
         int sum = 0;
 
