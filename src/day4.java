@@ -38,7 +38,7 @@ public class day4
         System.out.println("Correct answer is " + correctAnswer);
     }
 
-    public static void part2() throws IOException
+    private static void part2() throws IOException
     {
         ArrayList<String> input = new ArrayList<>(ReadFile.ToStringList("src/inputDay4.txt"));
 

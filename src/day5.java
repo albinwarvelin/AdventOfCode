@@ -10,7 +10,7 @@ public class day5
         part2();
     }
 
-    public static void part1() throws IOException
+    private static void part1() throws IOException
     {
         ArrayList<String> input = new ArrayList<>(ReadFile.ToStringList("src/inputDay5.txt"));
 
@@ -114,7 +114,7 @@ public class day5
         System.out.println("Total 5s: " + total5);
     }
 
-    public static void part2() throws IOException
+    private static void part2() throws IOException
     {
         ArrayList<String> input = new ArrayList<>(ReadFile.ToStringList("src/inputDay5.txt"));
 
